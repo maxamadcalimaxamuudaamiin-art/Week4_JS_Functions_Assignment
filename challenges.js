@@ -18,7 +18,10 @@
 
 // ✍️ Solve it here ✍️
 
-
+function greetUser(name){
+   return `Hello, ${name}!`
+}
+console.log(greetUser("fatma"))
 
 
 /* ------------------------------------------------------------
@@ -32,7 +35,12 @@
    ------------------------------------------------------------ */
 
 // ✍️ Solve it here ✍️
+function calculateTip(bill, tipPercent){
+   return bill*(tipPercent/100)
+}
 
+   console.log( calculateTip(50, 20))
+   console.log(calculateTip(80, 15))
 
 
 
@@ -47,7 +55,11 @@
    ------------------------------------------------------------ */
 
 // ✍️ Solve it here ✍️
-
+function celsiusToFahrenheit(c){
+   return  (c * 9) / 5 + 32
+}
+console.log(celsiusToFahrenheit(0))
+console.log(celsiusToFahrenheit(100))
 
 
 
@@ -63,6 +75,10 @@
 
 // ✍️ Solve it here ✍️
 
+const isAdult=(age)=>{
+ return  age >= 18
+}
+console.log(isAdult(20))
 
 
 
@@ -74,6 +90,12 @@
    ------------------------------------------------------------ */
 
 // ✍️ Stretch: solve it here ✍️
+
+function getInitials(firstName, lastName){
+ return `${firstName[0]}.${lastName[0]}.`
+ 
+}
+console.log( getInitials("Fatuma", "Ali"))
 
 
 
